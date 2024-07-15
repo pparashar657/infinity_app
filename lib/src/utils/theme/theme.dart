@@ -5,7 +5,7 @@ class MyAppTheme {
   static ThemeData lightTheme = ThemeData(
       brightness: Brightness.light,
       textTheme: TextTheme(
-          headlineMedium: GoogleFonts
+          bodyLarge: TextStyle(color: Colors.black, letterSpacing: .5)
       )
   );
   static ThemeData darkTheme = ThemeData(
